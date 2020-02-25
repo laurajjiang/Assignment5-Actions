@@ -17,4 +17,3 @@ def findDateRange(d1, d2):
     first = datetime.strptime(d1, "%m/%d/%Y")
     second = datetime.strptime(d2, "%m/%d/%Y")
     return (second - first).days
-
